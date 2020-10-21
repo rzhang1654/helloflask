@@ -9,6 +9,6 @@ RUN pip install Flask
 # Bundle app source
 COPY simpleapp.py /src/simpleapp.py
 
-EXPOSE  8009
-CMD ["python", "/src/simpleapp.py", "-p 8000"]
+EXPOSE  8002
+CMD ["python", "/src/simpleapp.py", "-p 8002"]
 
